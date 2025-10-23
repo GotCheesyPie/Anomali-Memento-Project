@@ -1,0 +1,681 @@
+fileFormatVersion: 2
+guid: a5df00146a3e41b40a02f52174bafdc7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_22
+      rect:
+        serializedVersion: 2
+        x: 12265
+        y: 29
+        width: 375
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc9ec77c5812df4284382431bf6a98a
+      internalID: -1109584986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 30
+        width: 246
+        height: 1040
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c754fedf1eb7ff4aaa39dd824b33e4e
+      internalID: -740073964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 23
+        width: 207
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7215e3771544c2f43938080f8731e661
+      internalID: -1408554759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 23
+        width: 336
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9ac8042e516bc4d8c54f05a10b0b71
+      internalID: 272050976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 29
+        width: 492
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adea6f7bde95beb49a25d94275ccb013
+      internalID: 843620237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 13
+        width: 536
+        height: 1044
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3266ef0fe25c88a4794377ffb10c7c3a
+      internalID: -1480364007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 24
+        width: 582
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30467b29e62b7f43854e9fa0ff3d2e4
+      internalID: 614124850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_6
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 24
+        width: 622
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aecce6af4898ae4089f422ebe63513b
+      internalID: -1448760826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_7
+      rect:
+        serializedVersion: 2
+        x: 3617
+        y: 29
+        width: 606
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99be78dc416a344b8e61e8a67239c58
+      internalID: 2051635962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_8
+      rect:
+        serializedVersion: 2
+        x: 4295
+        y: 29
+        width: 569
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4013f88cd7cfa164f9ebc3f9b37255ed
+      internalID: 600633508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_9
+      rect:
+        serializedVersion: 2
+        x: 5019
+        y: 29
+        width: 483
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56591d28dfe4cc14bb2a6d8867246ad4
+      internalID: -1015059726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_10
+      rect:
+        serializedVersion: 2
+        x: 5659
+        y: 29
+        width: 388
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d0e4ad75b915b4da444273c5530317
+      internalID: -1575626362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_11
+      rect:
+        serializedVersion: 2
+        x: 6170
+        y: 29
+        width: 355
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d640a954b3f314ea526b4d1043c890
+      internalID: -1631050058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_12
+      rect:
+        serializedVersion: 2
+        x: 6668
+        y: 30
+        width: 245
+        height: 1040
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cf17764a0e91a419e12b6107cbb7c1
+      internalID: 539719967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_13
+      rect:
+        serializedVersion: 2
+        x: 7055
+        y: 23
+        width: 204
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3a6cdcc0cb46f4ba09f449e57d9655
+      internalID: -724232650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_14
+      rect:
+        serializedVersion: 2
+        x: 7366
+        y: 23
+        width: 336
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31ad23f255b2ad48ad32f950a897a90
+      internalID: 675424149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_15
+      rect:
+        serializedVersion: 2
+        x: 7786
+        y: 29
+        width: 491
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3a5b0e63e744646aac5680debd54db
+      internalID: -1472337842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_17
+      rect:
+        serializedVersion: 2
+        x: 8950
+        y: 29
+        width: 587
+        height: 1028
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d5c02a46126af458dbc1ac4600dc68
+      internalID: 651110423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_18
+      rect:
+        serializedVersion: 2
+        x: 9589
+        y: 24
+        width: 620
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e046bf18ec49c429130cb93690edf1
+      internalID: 364071626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_19
+      rect:
+        serializedVersion: 2
+        x: 10261
+        y: 29
+        width: 601
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97446cb308e86a54c9624cbc0dc5230b
+      internalID: 1514241359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_20
+      rect:
+        serializedVersion: 2
+        x: 10921
+        y: 29
+        width: 562
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d132dcc638da5d74687c142ec746d3a9
+      internalID: 956095130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_21
+      rect:
+        serializedVersion: 2
+        x: 11626
+        y: 29
+        width: 471
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b04f9a080d52c46848bf334786eb70
+      internalID: -982568785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_23
+      rect:
+        serializedVersion: 2
+        x: 12802
+        y: 29
+        width: 349
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767467e9fb3e0e044aa4d0ecb33d1eed
+      internalID: 1741110912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aldrin_SpriteSheet_Walking_16
+      rect:
+        serializedVersion: 2
+        x: 8348
+        y: 13
+        width: 536
+        height: 1043
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7651670fb404e4f87003f46a185852
+      internalID: -440931228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Aldrin_SpriteSheet_Walking_0: -740073964
+      Aldrin_SpriteSheet_Walking_1: -1408554759
+      Aldrin_SpriteSheet_Walking_10: -1575626362
+      Aldrin_SpriteSheet_Walking_11: -1631050058
+      Aldrin_SpriteSheet_Walking_12: 539719967
+      Aldrin_SpriteSheet_Walking_13: -724232650
+      Aldrin_SpriteSheet_Walking_14: 675424149
+      Aldrin_SpriteSheet_Walking_15: -1472337842
+      Aldrin_SpriteSheet_Walking_16: -440931228
+      Aldrin_SpriteSheet_Walking_17: 651110423
+      Aldrin_SpriteSheet_Walking_18: 364071626
+      Aldrin_SpriteSheet_Walking_19: 1514241359
+      Aldrin_SpriteSheet_Walking_2: 272050976
+      Aldrin_SpriteSheet_Walking_20: 956095130
+      Aldrin_SpriteSheet_Walking_21: -982568785
+      Aldrin_SpriteSheet_Walking_22: -1109584986
+      Aldrin_SpriteSheet_Walking_23: 1741110912
+      Aldrin_SpriteSheet_Walking_3: 843620237
+      Aldrin_SpriteSheet_Walking_4: -1480364007
+      Aldrin_SpriteSheet_Walking_5: 614124850
+      Aldrin_SpriteSheet_Walking_6: -1448760826
+      Aldrin_SpriteSheet_Walking_7: 2051635962
+      Aldrin_SpriteSheet_Walking_8: 600633508
+      Aldrin_SpriteSheet_Walking_9: -1015059726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

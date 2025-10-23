@@ -1,0 +1,681 @@
+fileFormatVersion: 2
+guid: 79b8c53174e571f4a9dbdddc74ec5800
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 39
+        width: 218
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc905ef578d8e74b87b0051fca66346
+      internalID: 1341963281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 30
+        width: 201
+        height: 1033
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8569da42c1216104eb9bce2d9ad83dba
+      internalID: 676747275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_2
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 26
+        width: 336
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980f0780b58defe4d875a1f16a695891
+      internalID: -422923975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_3
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 31
+        width: 454
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af93877e234fea4096e7f836f32e1ad
+      internalID: 629037943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_4
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 22
+        width: 512
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d592be692eaf6544e8f3daab80a0c900
+      internalID: -1401694891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_5
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 33
+        width: 552
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff49300b81427b349906c1a8d559f4b8
+      internalID: 138071971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_6
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 38
+        width: 596
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c05e5831c30ae4cb27f421f9da5baf
+      internalID: 835946161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_7
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 41
+        width: 576
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438df5ae0285faa4ca8c41ed1219499c
+      internalID: -1569392615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_8
+      rect:
+        serializedVersion: 2
+        x: 4327
+        y: 37
+        width: 558
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1156fe6d912cf45acfc2e9bb89c65c
+      internalID: 569982016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_9
+      rect:
+        serializedVersion: 2
+        x: 4999
+        y: 35
+        width: 538
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbdd32621c6f8840946f750904b1ae2
+      internalID: 1421061415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_10
+      rect:
+        serializedVersion: 2
+        x: 5645
+        y: 39
+        width: 451
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4ccf80e67f2024481d7bd83a137188
+      internalID: 1585369935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_11
+      rect:
+        serializedVersion: 2
+        x: 6196
+        y: 35
+        width: 356
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e0acf01a525734d9bc2a6bbcd9d84b
+      internalID: 1837621364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_12
+      rect:
+        serializedVersion: 2
+        x: 6689
+        y: 39
+        width: 228
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c560be3f2e1d3d4799a95a66b77e380
+      internalID: -458683752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_13
+      rect:
+        serializedVersion: 2
+        x: 7055
+        y: 30
+        width: 204
+        height: 1033
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b26687f89c925e4caa9e2a6fca99d1f
+      internalID: 451286383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_14
+      rect:
+        serializedVersion: 2
+        x: 7388
+        y: 26
+        width: 336
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c58a906085b684b911f94773e3de0e
+      internalID: 54536495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_15
+      rect:
+        serializedVersion: 2
+        x: 7839
+        y: 28
+        width: 454
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee9526633306ad439071e226bb4ce75
+      internalID: -1822248438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_16
+      rect:
+        serializedVersion: 2
+        x: 8391
+        y: 24
+        width: 512
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee90d51976689242a10e8008b2c5165
+      internalID: 920236118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_17
+      rect:
+        serializedVersion: 2
+        x: 8998
+        y: 33
+        width: 552
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4504a42d4bf8dbc4d8546064235ec9df
+      internalID: -1439287253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_18
+      rect:
+        serializedVersion: 2
+        x: 9622
+        y: 38
+        width: 596
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f926993512b2a84192ab6fa3e8900c0
+      internalID: 1599952300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_19
+      rect:
+        serializedVersion: 2
+        x: 10297
+        y: 41
+        width: 576
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969734bd0264cfe4d9dacbd5df276592
+      internalID: 1437923969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_20
+      rect:
+        serializedVersion: 2
+        x: 10952
+        y: 37
+        width: 558
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dacb93971d225c47a46f2c5d262ad2e
+      internalID: 1504118497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_21
+      rect:
+        serializedVersion: 2
+        x: 11606
+        y: 35
+        width: 538
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179102650a9120347a90f03c172ce219
+      internalID: 854625079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_22
+      rect:
+        serializedVersion: 2
+        x: 12248
+        y: 39
+        width: 451
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30169d87c91dd1742956ccfe969c6851
+      internalID: -1934148384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sera_SpriteSheet_Walking_23
+      rect:
+        serializedVersion: 2
+        x: 12827
+        y: 35
+        width: 350
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad8d786eb2842b4d967e316bf0c0787
+      internalID: -2085953326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sera_SpriteSheet_Walking_0: 1341963281
+      Sera_SpriteSheet_Walking_1: 676747275
+      Sera_SpriteSheet_Walking_10: 1585369935
+      Sera_SpriteSheet_Walking_11: 1837621364
+      Sera_SpriteSheet_Walking_12: -458683752
+      Sera_SpriteSheet_Walking_13: 451286383
+      Sera_SpriteSheet_Walking_14: 54536495
+      Sera_SpriteSheet_Walking_15: -1822248438
+      Sera_SpriteSheet_Walking_16: 920236118
+      Sera_SpriteSheet_Walking_17: -1439287253
+      Sera_SpriteSheet_Walking_18: 1599952300
+      Sera_SpriteSheet_Walking_19: 1437923969
+      Sera_SpriteSheet_Walking_2: -422923975
+      Sera_SpriteSheet_Walking_20: 1504118497
+      Sera_SpriteSheet_Walking_21: 854625079
+      Sera_SpriteSheet_Walking_22: -1934148384
+      Sera_SpriteSheet_Walking_23: -2085953326
+      Sera_SpriteSheet_Walking_3: 629037943
+      Sera_SpriteSheet_Walking_4: -1401694891
+      Sera_SpriteSheet_Walking_5: 138071971
+      Sera_SpriteSheet_Walking_6: 835946161
+      Sera_SpriteSheet_Walking_7: -1569392615
+      Sera_SpriteSheet_Walking_8: 569982016
+      Sera_SpriteSheet_Walking_9: 1421061415
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
