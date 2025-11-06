@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fde1b1b5b6edd64eaab95472f39ad9b, type: 3}
   m_Name: Ladder
   m_EditorClassIdentifier: 
+  id: metal_ladder
   itemName: Ladder
-  icon: {fileID: 0}
-  itemPrefab: {fileID: 0}
+  icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  itemPrefab: {fileID: 6161036607223207909, guid: bf2a55e10a5a66e4593a6308b72e8efb, type: 3}

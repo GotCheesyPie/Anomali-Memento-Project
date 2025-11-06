@@ -101,7 +101,15 @@ public class WorldStateDatabase : ScriptableObject
 
     public bool HasStoryBeenTriggered(string uniqueId)
     {
-        return GetCurrentSceneData().triggeredStoryIdsInScene.Contains(uniqueId);
+        foreach (var sceneData in allSceneData)
+        {
+            if (sceneData.triggeredStoryIdsInScene.Contains(uniqueId))
+            {
+                return true;
+            }
+        }
+        
+        return false;
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)

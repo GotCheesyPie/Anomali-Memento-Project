@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allGameItems:
   - {fileID: 11400000, guid: d7d649c6a0e7ada43bb736cfcd719c67, type: 2}
+  - {fileID: 11400000, guid: 0da17cb89553b5845a5d9b643ae93d5e, type: 2}

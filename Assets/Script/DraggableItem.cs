@@ -11,6 +11,19 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     [SerializeField] Image image;
     [SerializeField] Transform parentAfterDrag;
 
+    // Flag untuk menandai apakah drop berhasil di target
+    private bool dropSuccessful = false;
+
+    public ItemData GetItemData()
+    {
+        return itemData;
+    }
+
+    public void SetDropSuccessful(bool success)
+    {
+        dropSuccessful = success;
+    }
+
     public void SetItem(ItemData data)
     {
         itemData = data;
@@ -26,8 +39,8 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         transform.SetParent(transform.root); 
         // Agar item tidak memblokir raycast ke objek di bawahnya
         image.raycastTarget = false; 
-        
-        // Debug.Log("Mulai drag: " + itemData.itemName);
+
+        dropSuccessful = false;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -53,23 +66,47 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     {
         image.raycastTarget = true;
 
+        if (dropSuccessful)
+        {
+            if (gameObject != null) // Cek jika target belum menghancurkannya
+            {
+                transform.SetParent(parentAfterDrag);
+                transform.localPosition = Vector3.zero;
+            }
+            return;
+        }
+
         if (!IsPointerOverInventoryPanel(eventData))
         {
-            PlayerInventory.instance.RemoveItem(itemData);
-            
-            if (itemData.itemPrefab != null)
+            // Kita di luar panel inventory.
+            // Cek apakah kita di atas DropTarget (tapi itemnya salah)
+            if (IsPointerOverDropTarget(eventData))
             {
-                 Vector3 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                 worldPoint.z = 0;
-                 
-                 // MINTA DATABASE UNTUK MENCATAT DAN MEMBUAT ITEM
-                 worldStateDatabase.RegisterDroppedItem(itemData, worldPoint);
+                // Item salah, kembali ke slot
+                transform.SetParent(parentAfterDrag);
+                transform.localPosition = Vector3.zero;
             }
+            else
+            {
+                // Bukan di atas inventory, BUKAN di atas target
+                // = Drop ke dunia
+                PlayerInventory.instance.RemoveItem(itemData);
             
-            Destroy(gameObject);
+                if (itemData.itemPrefab != null)
+                {
+                     Vector3 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                     worldPoint.z = 0;
+                     
+                     // MINTA DATABASE UNTUK MENCATAT DAN MEMBUAT ITEM
+                     worldStateDatabase.RegisterDroppedItem(itemData, worldPoint);
+                }
+            
+                Destroy(gameObject);
+            }
         }
         else
         {
+            // Kita di atas panel inventory, kembali ke slot
             transform.SetParent(parentAfterDrag);
             transform.localPosition = Vector3.zero;
         }
@@ -93,6 +130,22 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         }
         
         // Jika loop selesai dan tidak menemukan panel, berarti pointer di luar
+        return false;
+    }
+
+    // Fungsi helper untuk mengecek apakah pointer ada di atas DropTarget
+    private bool IsPointerOverDropTarget(PointerEventData eventData)
+    {
+        var results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, results);
+
+        foreach(var result in results)
+        {
+            if(result.gameObject.GetComponent<ItemDropTarget>() != null)
+            {
+                return true; 
+            }
+        }
         return false;
     }
 }

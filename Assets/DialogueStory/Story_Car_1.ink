@@ -70,4 +70,31 @@ They both watch as more smoke blows out from under the hood.
 #speaker: Aldrin
 (giving her a flat look) That's not helping.
 
+#speaker: Sera 
+(checking her phone) Okay, new plan. According to this, the bridge should be about two kilometers through the forest. We walk, check out this mysterious island, solve whatever weirdness is happening, and collect that very generous paycheck Lily mentioned.
+
+#speaker: Aldrin
+(looking back at his smoking car) I can't just leave it here.
+
+#speaker: Sera
+What choice do we have? It's not like we can push it. (grins) Besides, maybe some forest spirit will fix it while we're gone.
+
+#speaker: Aldrin
+Yeah, like hell that would happen...
+
+#speaker: Sera
+Come on, don’t be so down, Aldrin. Those missing Seekers aren't gonna find themselves, and I want to get paid before my phone dies completely.
+
+#speaker: Aldrin
+If we die out there because we had to walk into danger instead of driving away from it...
+
+#speaker: Sera
+(already heading toward the forest path) Then we'll die with really good cardio! Plus, think of it as an adventure!
+
+#speaker: Aldrin
+More like “Journey to the death”....
+
+#speaker: Aldrin
+Fine…Let’s get this over with
+
 -> END

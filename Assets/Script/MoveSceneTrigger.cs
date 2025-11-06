@@ -15,7 +15,7 @@ public class MoveSceneTrigger : MonoBehaviour
     
     [Tooltip("Arah pemain akan berjalan saat transisi.")]
     [SerializeField] private MoveDirection transitionDirection;
-    
+
     [Tooltip("Identifier untuk pintu keluar ini, akan digunakan sebagai pintu masuk di scene berikutnya.")]
     [SerializeField] private string thisExitIdentifier;
 
@@ -26,8 +26,20 @@ public class MoveSceneTrigger : MonoBehaviour
             Vector2 moveDirection = (transitionDirection == MoveDirection.Kanan) ? Vector2.right : Vector2.left;
 
             SceneTransitionManager.instance.StartTransition(sceneToLoad, moveDirection, thisExitIdentifier);
-            
+
             GetComponent<Collider2D>().enabled = false;
+        }
+    }
+
+    void Update()
+    {
+        if (Dialogue.GetInstance().dialogueIsPlaying)
+        {
+            gameObject.GetComponent<Collider2D>().enabled = false;
+        }
+        else
+        {
+            gameObject.GetComponent<Collider2D>().enabled = true;
         }
     }
 }

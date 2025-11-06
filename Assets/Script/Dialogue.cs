@@ -120,6 +120,7 @@ public class Dialogue : MonoBehaviour
         dialogueIsPlaying = false;
         dialogueBox.SetActive(false);
         textComponent.text = string.Empty;
+        // Debug.Log("dialogueIsPlaying: " + dialogueIsPlaying);
     }
     IEnumerator TypeLine()
     {
