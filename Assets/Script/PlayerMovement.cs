@@ -159,9 +159,9 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Apply final velocity and update animator
-        Vector3 targetVelocity = new Vector3(xVal, rbdy.velocity.y);
-        rbdy.velocity = targetVelocity;
-        animator.SetFloat("xVelocity", Mathf.Abs(rbdy.velocity.x)); // More robust to read from Rigidbody
+        Vector3 targetVelocity = new Vector3(xVal, rbdy.linearVelocity.y);
+        rbdy.linearVelocity = targetVelocity;
+        animator.SetFloat("xVelocity", Mathf.Abs(rbdy.linearVelocity.x)); // More robust to read from Rigidbody
 
         // Flip character direction
         if (facingRight && leftRightValue < 0)
@@ -186,8 +186,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void ForceMove(float direction)  
     {
-        rbdy.velocity = new Vector2(direction * speedX, rbdy.velocity.y);
-        animator.SetFloat("xVelocity", Mathf.Abs(rbdy.velocity.x)); // Using Rigidbody's velocity is safer here
+        rbdy.linearVelocity = new Vector2(direction * speedX, rbdy.linearVelocity.y);
+        animator.SetFloat("xVelocity", Mathf.Abs(rbdy.linearVelocity.x)); // Using Rigidbody's velocity is safer here
         
         // Handle flipping based on the forced direction
         if (direction > 0) facingRight = true;

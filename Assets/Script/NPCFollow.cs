@@ -27,7 +27,7 @@ public class NPCFollow : MonoBehaviour
     {
         if (target == null || !isFollowing)
         {
-            rb.velocity = new Vector2(0, rb.velocity.y);
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             if (anim != null)
             {
                 anim.SetFloat("xVelocity", 0f);
@@ -49,16 +49,16 @@ public class NPCFollow : MonoBehaviour
         if (Mathf.Abs(distanceToTargetPos) > stoppingDistance && Mathf.Abs(distanceToTargetPos) < runningDistance)
         {
             float moveDirection = Mathf.Sign(distanceToTargetPos);
-            rb.velocity = new Vector2(moveDirection * moveSpeed, rb.velocity.y);
+            rb.linearVelocity = new Vector2(moveDirection * moveSpeed, rb.linearVelocity.y);
         }
         else if (Mathf.Abs(distanceToTargetPos) > runningDistance)
         {
             float moveDirection = Mathf.Sign(distanceToTargetPos);
-            rb.velocity = new Vector2(moveDirection * moveSpeed * 1.8f, rb.velocity.y);
+            rb.linearVelocity = new Vector2(moveDirection * moveSpeed * 1.8f, rb.linearVelocity.y);
         }
         else
         {
-            rb.velocity = new Vector2(0, rb.velocity.y);
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         }
 
         FlipBasedOnVelocity();
@@ -68,11 +68,11 @@ public class NPCFollow : MonoBehaviour
 
     private void FlipBasedOnVelocity()
     {
-        if (rb.velocity.x > 0.1f)
+        if (rb.linearVelocity.x > 0.1f)
         {
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
-        else if (rb.velocity.x < -0.1f)
+        else if (rb.linearVelocity.x < -0.1f)
         {
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
@@ -81,6 +81,6 @@ public class NPCFollow : MonoBehaviour
     private void UpdateAnimation()
     {
         if (anim == null) return;
-        anim.SetFloat("xVelocity", Mathf.Abs(rb.velocity.x));
+        anim.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
     }
 }

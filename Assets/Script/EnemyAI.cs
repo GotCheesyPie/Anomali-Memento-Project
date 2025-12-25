@@ -57,7 +57,7 @@ public class EnemyAI : MonoBehaviour
     private void HandlePatrol()
     {
         Vector2 direction = (patrolPoints[patrolDestinationIndex].position - transform.position).normalized;
-        rb.velocity = new Vector2(direction.x * patrolSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(direction.x * patrolSpeed, rb.linearVelocity.y);
         Flip(direction.x);
 
         if (Vector2.Distance(transform.position, patrolPoints[patrolDestinationIndex].position) < 0.5f)
@@ -69,13 +69,13 @@ public class EnemyAI : MonoBehaviour
     private void HandleChase()
     {
         Vector2 direction = (playerTransform.position - transform.position).normalized;
-        rb.velocity = new Vector2(direction.x * chaseSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(direction.x * chaseSpeed, rb.linearVelocity.y);
         Flip(direction.x);
     }
     
     private void HandleStun()
     {
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
     }
 
     private void CheckForPlayer()
